@@ -16,8 +16,9 @@ public class isArrSort {
         for(int i=0;i<number;i++){
             arr[i]=scn.nextInt();
         }
-        int i=0;
-        System.out.println(checkArr(arr,i));
+        System.out.println(checkArr(arr,0));
+        System.out.print("you can try different number");
+
 
     }
 }
